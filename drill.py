@@ -8,7 +8,7 @@ ROOTPATH = os.path.realpath('.')
 DICTPATH = ROOTPATH + '/dict/'
 class drill:
     def __init__(self):
-        parser = argparse.ArgumentParser(description='小旋风爆破器')
+        parser = argparse.ArgumentParser(description='小转风爆破器')
         parser.add_argument('-host', '--host', type=str, help='主机地址')
         parser.add_argument('-port', '--port', type=str, help='端口')
         # parser.add_argument('-timeout', '--timeout', type=str, help='超时时间')
