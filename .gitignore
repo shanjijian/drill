@@ -1,15 +1,4 @@
 .venv
 .DS_Store
-.idea
-dist
-build
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info
-__pycache__
-*.log
-*.log.*.1
 test
+/.gitignore
